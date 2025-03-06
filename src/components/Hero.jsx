@@ -2,28 +2,34 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div
-      className="relative z-10 bg-amber-100 w-screen h-screen text-red-400
-     border-red-600 border-6 flex items-center justify-center max-md:flex-col-reverse"
+    <header
+      className="flex flex-col justify-center items-center bg-transparent
+    w-screen h-screen"
     >
-      <div
-        className="bg-amber-400 border-4 border-red-600 flex
-      justify-center items-center flex-1  h-128"
+      <figure
+        className="flex flex-col bg-red-100 p-4 gap-4 justify-center
+      items-center"
       >
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolor
-          voluptates provident debitis possimus eligendi, nobis corrupti quasi
-          quo veniam ut? Cum laborum molestias animi sequi officia iusto
-          eligendi nemo!
-        </p>
-      </div>
-      <div
-        className="flex-1 bg-amber-200 border-4 border-red-600 flex
-      justify-center items-center w-screen h-128"
-      >
-        This is where your Image will be display
-      </div>
-    </div>
+        <img
+          src="/img/avatar.jpg"
+          className="rounded-full w-48 h-48"
+          alt="Profile Picture"
+        />
+        <figcaption className="text-black text-5xl ">
+          <h1>Hi, I'm Tannarin</h1>
+        </figcaption>
+        <figcaption className="text-black text-3xl">
+          <h3>an Civil Engineer</h3>
+        </figcaption>
+        <figcaption className="text-black text-2xl">
+          <h2>Turning vision into reality with precision and passion.</h2>
+        </figcaption>
+      </figure>
+      <section>
+        <button>Contact Me</button>
+        <button>Resume</button>
+      </section>
+    </header>
   );
 };
 

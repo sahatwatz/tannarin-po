@@ -1,10 +1,46 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "caveat-regular";
+  src: url("/public/fonts/Caveat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "caveat-bold";
+  src: url("/public/fonts/Caveat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "barlowcondensed-light";
+  src: url("/public/fonts/BarlowCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: "adventpro-light";
+  src: url("/public/fonts/AdventPro-Light.ttf");
+}
+
+@font-face {
+  font-family: "adventpro-regular";
+  src: url("/public/fonts/AdventPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "racingsansone-regular";
+  src: url("/public/fonts/RacingSansOne-Regular.ttf");
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   background-color: white;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
@@ -12,4 +48,22 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --font-caveat-regular: caveat-regular, sans-serif;
+  --font-caveat-bold: caveat-bold, sans-serif;
+  --font-barlowcßondensed-light: barlowcondensed-light, sans-serif;
+  --font-adventpro-light: adventpro-light, sans-serif;
+  --font-adventpro-regular: adventpro-regular, sans-serif;
+  --font-racingsansone-regular: racingsansone-regular, sans-serif;
+}
+
+.custom-gradient {
+  background-image: linear-gradient(
+    to bottom,
+    #bef6ff 10%,
+
+    #ffffff 50%
+  );
 }

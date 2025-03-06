@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <header
       className="flex flex-col justify-center items-center bg-transparent
-    w-screen h-screen"
+    w-screen h-screen bg-gradient-to-b custom-gradient"
     >
-      <aside className="bg-white rounded-2xl px-2 py-1 shadow-2xl border-1 border-gray-200">
+      <aside className="bg-white rounded-2xl px-4 py-1 shadow-2xl border-1 border-gray-200">
         <span aria-label="working status" title="working status">
           <p className="text-black">
             🔧 Currently working at{" "}
@@ -17,7 +17,7 @@ const Hero = () => {
         </span>
       </aside>
       <figure
-        className="flex flex-col p-4 gap-4 justify-center
+        className="flex flex-col p-4 mt-4 gap-4 justify-center
       items-center "
       >
         <img
@@ -25,15 +25,15 @@ const Hero = () => {
           className="rounded-full w-48 h-48 border-1 border-gray-200"
           alt="Profile Picture"
         />
-        <figcaption className="text-black text-5xl ">
-          <h1>
-            Hi, I'm <b>Tannarin</b>
+        <figcaption className="text-black md:text-8xl text-4xl font-caveat-regular">
+          <h1 className="bg-gradient-to-r from-blue-500 to bg-purple-500 bg-clip-text text-transparent">
+            Hi, I'm <b className="font-caveat-bold">Tannarin</b>
           </h1>
         </figcaption>
-        <figcaption className="text-black text-3xl">
-          <h3>an Civil Engineer</h3>
+        <figcaption className="text-black md:text-4xl text-2xl font-adventpro-regular">
+          <h3 className="font-barlowconsended-light">an Civil Engineer</h3>
         </figcaption>
-        <figcaption className="text-black text-2xl">
+        <figcaption className="text-black md:text-4xl text-xl font-racingsansone-regular">
           <h2>Turning vision into reality with precision and passion.</h2>
         </figcaption>
       </figure>

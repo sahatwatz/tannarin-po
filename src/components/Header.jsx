@@ -5,27 +5,28 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header
-      className="fixed flex justify-between items-center  border-blue-400 z-20 h-16 
+    <nav
+      className="fixed flex justify-between items-center   border-blue-400 z-20 h-16 
     w-screen  md:bg-transparent bg-white px-5"
     >
       <span
-        className="text-black text-2xl shadow-2xs
-         font-semibold border-2 p-1 border-black"
+        className="flex text-black text-2xl 
+         font-semibold p-1"
       >
         Tannarin
+        <div className="bg-gradient-to-r from-blue-500 to bg-purple-500  w-4 h-4 rounded-full"></div>
       </span>
 
       <ul
         className="hidden md:flex justify-center items-center text-black
-       gap-5 bg-white p-2 px-5 shadow-2xl rounded-2xl"
+       gap-5 bg-white p-2 px-5 shadow-2xl rounded-2xl border-1 border-gray-200"
       >
         <li>Home</li>
         <li>Works</li>
         <li>Services</li>
         <li>About Me</li>
       </ul>
-      <button className="text-black hidden md:block bg-white p-1 rounded-2xl">
+      <button className="text-black hidden md:block border-1 border-gray-200 bg-white p-2 px-2 rounded-2xl">
         Contact Me
       </button>
 
@@ -42,7 +43,7 @@ const Header = () => {
 
       {isOpen && (
         <ul
-          className="absolute top-14 left-0 w-full rounded-b-lg bg-white
+          className="absolute top-14 left-0 w-full rounded-b-lg bg-white shadow-2xl
         flex flex-col items-center gap-4 py-4 text-lg md:hidden text-black"
         >
           <li className="hover:text-blue-300 cursor-pointer">Home</li>
@@ -54,7 +55,7 @@ const Header = () => {
           </button>
         </ul>
       )}
-    </header>
+    </nav>
   );
 };
 

@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div
+    <header
       className="fixed flex justify-between items-center  border-blue-400 z-20 h-16 
     w-screen  md:bg-transparent bg-white px-5"
     >
@@ -18,7 +18,7 @@ const Header = () => {
 
       <ul
         className="hidden md:flex justify-center items-center text-black
-       gap-5 bg-white p-3 px-4 shadow-2xl rounded-2xl"
+       gap-5 bg-white p-2 px-5 shadow-2xl rounded-2xl"
       >
         <li>Home</li>
         <li>Works</li>
@@ -54,7 +54,7 @@ const Header = () => {
           </button>
         </ul>
       )}
-    </div>
+    </header>
   );
 };
 

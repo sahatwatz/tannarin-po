@@ -2,32 +2,32 @@
 
 @font-face {
   font-family: "caveat-regular";
-  src: url("/public/fonts/Caveat-Regular.ttf");
+  src: url("/fonts/Caveat-Regular.ttf");
 }
 
 @font-face {
   font-family: "caveat-bold";
-  src: url("/public/fonts/Caveat-Bold.ttf");
+  src: url("/fonts/Caveat-Bold.ttf");
 }
 
 @font-face {
   font-family: "barlowcondensed-light";
-  src: url("/public/fonts/BarlowCondensed-Light.ttf");
+  src: url("/fonts/BarlowCondensed-Light.ttf");
 }
 
 @font-face {
   font-family: "adventpro-light";
-  src: url("/public/fonts/AdventPro-Light.ttf");
+  src: url("/fonts/AdventPro-Light.ttf");
 }
 
 @font-face {
   font-family: "adventpro-regular";
-  src: url("/public/fonts/AdventPro-Regular.ttf");
+  src: url("/fonts/AdventPro-Regular.ttf");
 }
 
 @font-face {
   font-family: "racingsansone-regular";
-  src: url("/public/fonts/RacingSansOne-Regular.ttf");
+  src: url("/fonts/RacingSansOne-Regular.ttf");
 }
 
 :root {

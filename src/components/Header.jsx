@@ -8,7 +8,7 @@ const Header = () => {
     <nav className="relative flex justify-center items-center">
       <section
         className="fixed flex justify-between items-center bg-transparent mt-[8%] border-blue-400 z-20 h-16 
-    w-1/2 max-md:bg-white max-md:rounded-2xl max-md:mt-16 max-lg:bg-red-300   px-5"
+    w-1/2 max-md:bg-white max-md:rounded-2xl max-md:mt-16    px-5"
       >
         <span
           className="flex text-black text-2xl 

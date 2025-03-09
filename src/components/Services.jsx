@@ -1,11 +1,16 @@
 import React from "react";
-import { MdBeenhere, MdContentPasteSearch, MdBarChart } from "react-icons/md";
+import {
+  MdBeenhere,
+  MdContentPasteSearch,
+  MdBarChart,
+  MdConstruction,
+} from "react-icons/md";
 
 const Services = () => {
   return (
-    <section className="bg-white h-128 w-screen flex justify-center items-center border-2 border-black">
-      <section className=" w-1/2 flex justify-center items-center gap-2">
-        <section className="h-96 w-1/4 flex items-center flex-col text-black">
+    <section className="relative bg-whtie h-auto w-screen flex justify-center items-center border-2 border-black">
+      <section className="relative w-2/3 grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-2 h-auto place-items-top place-content-center bg-white">
+        <section className=" flex items-center flex-col text-black h-auto w-auto">
           <h2 className="p-4 text-2xl">
             <b>Auditing</b>
           </h2>
@@ -18,7 +23,7 @@ const Services = () => {
             corrupti.
           </p>
         </section>
-        <section className="h-96 w-1/4 flex items-center flex-col text-black">
+        <section className="flex items-center flex-col text-black h-auto w-auto">
           <h2 className="p-4 text-2xl">
             <b>Planning</b>
           </h2>
@@ -31,7 +36,7 @@ const Services = () => {
             corrupti.
           </p>
         </section>
-        <section className="h-96 w-1/4 flex items-center flex-col text-black">
+        <section className="h-auto w-auto flex items-center flex-col text-black">
           <h2 className="p-4 text-2xl">
             <b>Analysis</b>
           </h2>
@@ -44,12 +49,12 @@ const Services = () => {
             corrupti.
           </p>
         </section>
-        <section className="h-96 w-1/4 flex items-center flex-col text-black">
+        <section className="h-auto w-auto flex items-center flex-col text-black">
           <h2 className="p-4 text-2xl">
             <b>Management</b>
           </h2>
           <figure>
-            <MdBeenhere className="w-24 h-24 text-pink-400" />
+            <MdConstruction className="w-24 h-24 text-pink-400" />
           </figure>
           <h3 className="text-lg p-8">Contract & Payment Management</h3>
           <p className="overflow-hidden p-4 text-sm text-gray-400">

@@ -8,12 +8,14 @@ import Timeline from "./components/Timeline";
 import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import TopicService from "./components/TopicService";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <TopicService />
       <Services />
       <Content />
 

@@ -6,7 +6,7 @@ const Hero = () => {
       className="flex flex-col justify-center items-center bg-transparent
     w-screen h-screen bg-gradient-to-b custom-gradient"
     >
-      <aside className="bg-white rounded-2xl px-4 py-1 shadow-2xl border-1 border-gray-200">
+      <aside className="bg-[rgba(255,255,255,0.5)] rounded-2xl px-4 py-1 shadow-2xl border-1 border-gray-50">
         <span aria-label="working status" title="working status">
           <p className="text-black">
             🔧 Currently working at{" "}

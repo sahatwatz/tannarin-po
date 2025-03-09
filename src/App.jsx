@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import Hero from "./components/Hero";
 import "./App.css";
 import Content from "./components/Content";
@@ -11,6 +11,9 @@ import Header from "./components/Header";
 import TopicService from "./components/TopicService";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header />

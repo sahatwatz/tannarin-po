@@ -5,6 +5,7 @@ const Hero = () => {
     <header
       className="flex flex-col justify-center items-center bg-transparent
     w-screen h-screen bg-gradient-to-b custom-gradient"
+      id="home"
     >
       <aside className="bg-[rgba(255,255,255,0.5)] rounded-2xl px-4 py-1 shadow-2xl border-1 border-gray-50">
         <span aria-label="working status" title="working status">

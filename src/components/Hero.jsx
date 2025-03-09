@@ -17,7 +17,7 @@ const Hero = () => {
         </span>
       </aside>
       <figure
-        className="flex flex-col p-4 mt-4 gap-4 justify-center
+        className="flex flex-col p-4 mt-4 gap-8 justify-center
       items-center "
       >
         <img
@@ -31,9 +31,9 @@ const Hero = () => {
           </h1>
         </figcaption>
         <figcaption className="text-black md:text-4xl text-2xl font-adventpro-regular">
-          <h3 className="font-barlowconsended-light">an Civil Engineer</h3>
+          <h3 className="font-barlowconsended-light">a Civil Engineer</h3>
         </figcaption>
-        <figcaption className="text-black md:text-4xl text-xl font-racingsansone-regular">
+        <figcaption className="text-black md:text-2xl text-lg font-serif">
           <h2>Turning vision into reality with precision and passion.</h2>
         </figcaption>
       </figure>

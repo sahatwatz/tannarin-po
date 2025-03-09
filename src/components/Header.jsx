@@ -22,10 +22,18 @@ const Header = () => {
           className="hidden md:flex justify-center items-center text-black
        gap-5 bg-white p-2 px-5 shadow-2xl rounded-2xl border-1 border-gray-200 max-lg:text-md max-lg:px-4 max-lg:p-2 max-lg:gap-2"
         >
-          <li>Home</li>
-          <li>Works</li>
-          <li>Services</li>
-          <li>About Me</li>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Services</a>
+          </li>
+          <li>
+            <a href="">Works</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
         </ul>
         <button className=" max-xl:hidden border-1 text-white border-gray-200 bg-gradient-to-r from-blue-500 to bg-purple-500  p-2 px-2 rounded-2xl">
           Contact Me
@@ -48,12 +56,9 @@ const Header = () => {
         flex flex-col items-center gap-4 py-4 text-lg md:hidden text-black"
           >
             <li className="hover:text-blue-300 cursor-pointer">Home</li>
-            <li className="hover:text-blue-300 cursor-pointer">Works</li>
             <li className="hover:text-blue-300 cursor-pointer">Services</li>
-            <li className="hover:text-blue-300 cursor-pointer">About Me</li>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
-              Login
-            </button>
+            <li className="hover:text-blue-300 cursor-pointer">Works</li>
+            <li className="hover:text-blue-300 cursor-pointer">About</li>
           </ul>
         )}
       </section>

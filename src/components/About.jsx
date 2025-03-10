@@ -20,10 +20,10 @@ const About = () => {
             <h3 className="text-gray-500">Civil Engineer</h3>
           </figcaption>
           <p className="px-12 py-4 text-left text-gray-700 leading-relaxed text-md max-w-prose mx-auto whitespace-normal">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
-            doloremque dolorum fugiat doloribus architecto et temporibus saepe
-            consequatur eligendi sapiente ab voluptatibus libero inventore
-            excepturi! Ut consequatur est quam provident.
+            MeowNam plays Valorant but always seems to be walking around and
+            missing shots every time. She’s a bit slow on everything, even when
+            it comes to providing web dev info she should’ve already shared. But
+            hey, she’s trying!
           </p>
           <aside className="flex flex-col justify-center items-center gap-4 p-4">
             <figure className="flex justify-center items-center gap-2">

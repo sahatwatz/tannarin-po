@@ -2,7 +2,7 @@ import React from "react";
 
 const Works = () => {
   return (
-    <section className="flex justify-center items-center p-4">
+    <section className="flex justify-center items-center p-4 mt-[4%]">
       <section className="grid grid-cols-2 max-lg:grid-cols-1 place-content-center place-items-center w-2/3 h-auto gap-4 bg-gray-50 shadow-2xl p-4">
         <article className="bg-gray-100 grid grid-cols-1 place-content-center place-items-center shadow-xl hover:scale-105 p-4">
           <figure className="p-2">

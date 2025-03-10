@@ -1,53 +1,53 @@
-import { section } from "motion/react-client";
 import React from "react";
 
 const Works = () => {
   return (
-    <section className="flex justify-center items-center">
-      <section className="grid grid-cols-2 max-lg:grid-cols-1 place-content-center place-items-center bg-amber-100 w-2/3 h-auto">
-        <article className="bg-gray-100 border-4 grid grid-cols-1 place-content-center place-items-center">
+    <section className="flex justify-center items-center p-4">
+      <section className="grid grid-cols-2 max-lg:grid-cols-1 place-content-center place-items-center w-2/3 h-auto gap-4 bg-gray-50 shadow-2xl p-4">
+        <article className="bg-gray-100 grid grid-cols-1 place-content-center place-items-center shadow-xl hover:scale-105 p-4">
           <figure className="p-2">
-            <div className="w-96 h-64 bg-gray-400"></div>
+            <img src="/img/work1.avif" alt="" />
           </figure>
 
           <h2 className="text-black font-semibold text-lg">Working Site</h2>
-          <p className="text-black">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem,
-            a.
+          <p className="text-black text-left">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+            cupiditate non commodi ullam laborum labore, accusantium quod iste
+            tenetur ea.
           </p>
         </article>
-        <section className="bg-gray-200 grid grid-cols-1 border-4 gap-2">
-          <article className="grid grid-cols-[1fr_2fr] bg-amber-200 place-content-center">
-            <figure className="bg-green-200 flex justify-center items-center">
-              <div className="w-50 h-30 bg-gray-400"></div>
+        <section className="grid grid-cols-1 gap-2">
+          <article className="grid grid-cols-[1fr_2fr] place-content-center bg-gray-100 shadow-xl hover:scale-125">
+            <figure className="flex justify-center items-center">
+              <img src="/img/work2.avif" alt="" />
             </figure>
-            <figcaption className="grid grid-cols-1 place-content-center place-items-start text-black bg-red-200 p-2">
-              <h2 className="bg-pink-100 font-semibold text-lg">Second Work</h2>
-              <p className="bg-orange-300 text-start">
+            <figcaption className="grid grid-cols-1 place-content-center place-items-start text-black p-2">
+              <h2 className="font-semibold text-lg">First Work</h2>
+              <p className="text-start">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dignissimos, mollitia?
               </p>
             </figcaption>
           </article>
-          <article className="grid grid-cols-[1fr_2fr] bg-amber-200 place-content-center">
-            <figure className="bg-green-200 flex justify-center items-center">
-              <div className="w-50 h-30 bg-gray-400"></div>
+          <article className="grid grid-cols-[1fr_2fr]  place-content-center bg-gray-100 shadow-xl hover:scale-125">
+            <figure className="flex justify-center items-center">
+              <img src="/img/work3.avif" alt="" />
             </figure>
-            <figcaption className="grid grid-cols-1 place-content-center place-items-start text-black bg-red-200 p-2">
-              <h2 className="bg-pink-100 font-semibold text-lg">Second Work</h2>
-              <p className="bg-orange-300 text-start">
+            <figcaption className="grid grid-cols-1 place-content-center place-items-start text-black p-2">
+              <h2 className=" font-semibold text-lg">Second Work</h2>
+              <p className=" text-start">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dignissimos, mollitia?
               </p>
             </figcaption>
           </article>
-          <article className="grid grid-cols-[1fr_2fr] bg-amber-200 place-content-center">
-            <figure className="bg-green-200 flex justify-center items-center">
-              <div className="w-50 h-30 bg-gray-400"></div>
+          <article className="grid grid-cols-[1fr_2fr] place-content-center bg-gray-100 shadow-xl hover:scale-125">
+            <figure className="flex justify-center items-center">
+              <img src="/img/work4.avif" alt="" />
             </figure>
-            <figcaption className="grid grid-cols-1 place-content-center place-items-start text-black bg-red-200 p-2">
-              <h2 className="bg-pink-100 font-semibold text-lg">Second Work</h2>
-              <p className="bg-orange-300 text-start">
+            <figcaption className="grid grid-cols-1 place-content-center place-items-start text-black p-2">
+              <h2 className=" font-semibold text-lg">Third Work</h2>
+              <p className=" text-start">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dignissimos, mollitia?
               </p>

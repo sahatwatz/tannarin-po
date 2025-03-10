@@ -42,7 +42,10 @@ const Hero = () => {
         <button className="hidden max-xl:block bg-blue-400 border-1 border-blue-200 hover:bg-blue-500 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer">
           Contact Me
         </button>
-        <button className=" text-black bg-white border-1 border-gray-200 hover:bg-gray-100 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer">
+        <button
+          className=" text-black bg-white border-1 border-gray-200 hover:bg-gray-100 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer"
+          id="services"
+        >
           Resume →
         </button>
       </section>

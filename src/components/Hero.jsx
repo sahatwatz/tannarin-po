@@ -7,7 +7,7 @@ const Hero = () => {
     w-screen h-screen bg-gradient-to-b custom-gradient"
       id="home"
     >
-      <aside className="bg-[rgba(255,255,255,0.5)] rounded-2xl px-4 py-1 shadow-2xl border-1 border-gray-50">
+      <aside className="bg-[rgba(255,255,255,0.5)] rounded-2xl px-4 py-1 shadow-2xl border-1 border-gray-50 mt-[8%]">
         <span aria-label="working status" title="working status">
           <p className="text-black">
             🔧 Currently working at{" "}
@@ -22,8 +22,8 @@ const Hero = () => {
       items-center "
       >
         <img
-          src="/img/avatar.jpg"
-          className="rounded-full w-48 h-48 border-1 border-gray-200"
+          src="/img/profile.jpeg"
+          className="rounded-full w-48 h-48 border-4 border-gray-200"
           alt="Profile Picture"
         />
         <figcaption className="text-black md:text-8xl text-4xl font-caveat-regular">
@@ -38,12 +38,12 @@ const Hero = () => {
           <h2>Turning vision into reality with precision and passion.</h2>
         </figcaption>
       </figure>
-      <section className="flex justify-center items-center mt-20 gap-4">
-        <button className="bg-blue-400 border-1 border-blue-200 hover:bg-blue-500 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer">
+      <section className="flex justify-center items-center mt-[4%] gap-4">
+        <button className="hidden max-xl:block bg-blue-400 border-1 border-blue-200 hover:bg-blue-500 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer">
           Contact Me
         </button>
-        <button className="text-black bg-white border-1 border-gray-200 hover:bg-gray-100 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer">
-          Resume
+        <button className=" text-black bg-white border-1 border-gray-200 hover:bg-gray-100 px-3 py-2 rounded-2xl shadow-2xl cursor-pointer">
+          Resume →
         </button>
       </section>
     </header>

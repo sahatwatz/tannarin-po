@@ -8,7 +8,7 @@ import {
 
 const Services = () => {
   return (
-    <section className="relative bg-whtie h-auto w-screen flex justify-center items-center border-2 border-black">
+    <section className="relative bg-whtie h-auto w-screen flex justify-center items-center">
       <section className="relative w-2/3 grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-2 h-auto place-items-top place-content-center bg-white">
         <section className=" flex items-center flex-col text-black h-auto w-auto">
           <h2 className="p-4 text-2xl">

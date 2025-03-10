@@ -18,7 +18,7 @@ const Header = () => {
     <nav className="relative flex justify-center items-center">
       <section
         className="fixed flex justify-between items-center bg-transparent mt-[8%] border-blue-400 z-20 h-16 
-    w-1/2 max-md:bg-white max-md:rounded-2xl max-md:mt-16    px-5"
+    w-1/2 max-md:bg-white max-md:rounded-2xl max-md:mt-16 px-3 max-lg:mt-[15%] max-xl:mt-[10%]"
       >
         <span
           className="flex text-black text-2xl 
@@ -30,7 +30,7 @@ const Header = () => {
 
         <ul
           className="hidden md:flex justify-center items-center text-black
-       gap-5 bg-white p-2 px-5 shadow-2xl rounded-2xl border-1 border-gray-200 max-lg:text-md max-lg:px-4 max-lg:p-2 max-lg:gap-2"
+       gap-1 bg-white p-2 px-2 shadow-2xl rounded-2xl border-1 border-gray-200 max-lg:text-md max-lg:px-2 max-lg:p-2"
         >
           <li>
             <a
@@ -38,7 +38,7 @@ const Header = () => {
                 scrollToSection("home");
                 handleClick(1);
               }}
-              className={` px-4 py-2 text-black font-semibold rounded-2xl  transition-all duration-300 cursor-pointer
+              className={`px-2 py-2 text-black font-semibold rounded-2xl  transition-all duration-300 cursor-pointer
                 ${isActive === 1 ? "bg-gray-500 text-white " : ""}`}
             >
               Home
@@ -50,7 +50,7 @@ const Header = () => {
                 scrollToSection("services");
                 handleClick(2);
               }}
-              className={`px-4 py-2 text-black font-semibold rounded-2xl transition-all duration-300 cursor-pointer
+              className={`px-2 py-2 text-black font-semibold rounded-2xl transition-all duration-300 cursor-pointer
                 ${isActive === 2 ? "bg-gray-500 text-white" : ""}`}
             >
               Services
@@ -62,7 +62,7 @@ const Header = () => {
                 scrollToSection("works");
                 handleClick(3);
               }}
-              className={`px-4 py-2 text-black font-semibold rounded-2xl transition-all duration-300 cursor-pointer
+              className={`px-2 py-2 text-black font-semibold rounded-2xl transition-all duration-300 cursor-pointer
                 ${isActive === 3 ? "bg-gray-500 text-white" : ""}`}
             >
               Works
@@ -74,7 +74,7 @@ const Header = () => {
                 scrollToSection("about");
                 handleClick(4);
               }}
-              className={`px-4 py-2 text-black font-semibold rounded-2xl transition-all duration-300 cursor-pointer
+              className={`px-2 py-2 text-black font-semibold rounded-2xl transition-all duration-300 cursor-pointer
                 ${isActive === 4 ? "bg-gray-500 text-white" : ""}`}
             >
               About
@@ -86,7 +86,7 @@ const Header = () => {
             scrollToSection("contact");
             handleClick(5);
           }}
-          className=" max-xl:hidden border-1 text-white border-gray-200 bg-gradient-to-r from-blue-500 to bg-purple-500  p-2 px-2 rounded-2xl"
+          className=" max-xl:hidden border-1 font-semibold text-white border-gray-200 bg-gradient-to-r from-blue-500 to bg-purple-500  p-2 px-2 rounded-2xl"
         >
           Contact Me
         </button>

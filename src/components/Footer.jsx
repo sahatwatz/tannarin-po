@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer
-      className="w-screen h-16 bg-gray-200 border-4 border-red-500 flex justify-center items-center"
-      id="contact"
-    >
-      <h1 className="text-black text-3xl">Hello from Footer!</h1>
+    <footer className="w-screen h-48 bg-gray-100 shadow-2xl flex justify-center items-center">
+      <h3 className="text-black font-medium">
+        <span className="font-serif">&copy;</span> 2025 Built by{" "}
+        <a href="https://sahatwatz.vercel.app/">Sahatwatz</a>
+      </h3>
     </footer>
   );
 };
